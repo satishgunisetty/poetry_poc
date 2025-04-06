@@ -1,0 +1,28 @@
+[project]
+name = "poetry-poc"
+version = "0.1.0"
+description = "It is a Simple project structure"
+authors = [
+    {name = "Satish Gunisetty",email = "reachsatishgunisetty@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyspark (>=3.5.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+
+[tool.poetry]
+packages = [
+    {include = "src"}
+]
+
+

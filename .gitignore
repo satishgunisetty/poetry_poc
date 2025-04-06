@@ -1,0 +1,43 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Poetry virtual environments
+# Poetry stores virtualenvs in a cache directory by default (e.g., ~/Library/Caches/pypoetry/virtualenvs),
+# but if you use `virtualenvs.in-project true`, this will cover a local .venv/
+.venv/
+venv/
+
+# Build artifacts from `poetry build`
+dist/
+build/
+
+# Dependency lock file (optional)
+# Uncomment if you don’t want to track poetry.lock (e.g., in a library project)
+# poetry.lock
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS-specific files
+.DS_Store
+
+# Spark-specific ignores (if running locally)
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Miscellaneous
+*.egg-info/
+*.egg
+*.cache
