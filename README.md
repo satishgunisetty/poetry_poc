@@ -42,20 +42,20 @@ A proof-of-concept Python project using Poetry for dependency management and Apa
 
 ## Usage:
 ### Running Locally:
-- Execute the main script:  
+- Execute the main script:
 
     ```bash
     poetry run python src/main.py
 
 ### Building the Package
-- Generate distributable files (.tar.gz and .whl):  
+- Generate distributable files (.tar.gz and .whl):
 
     ```bash
     poetry build
 
 
 ## Code Quality
-Pre-commit hooks run automatically on `git commit`  to:  
+Pre-commit hooks run automatically on `git commit`  to:
 
 - Format code with black.
 - Lint with flake8.
